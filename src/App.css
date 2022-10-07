@@ -1,0 +1,111 @@
+body {
+  background-color: #2994B2;
+  color: azure;
+  font-family: -apple-system, Roboto, sans-serif;
+  padding-top: 30px;
+}
+
+.App {
+  text-align: center;
+}
+
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=search] {
+  padding: 5px 20px;
+  margin: 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+span {
+  font-size: 12px;
+  margin: 5px;
+}
+
+button {
+  width: 100%;
+  background-color: #FFB400;
+  color: #474744;
+  padding: 14px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fbc342;
+}
+
+.formWrap {
+  display: flex;
+  border-radius: 5px;
+  background-color: #474744;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.listWrap {
+  width: 80%;
+  margin: 20px auto 20px auto;
+  background-color: #474744;
+}
+
+.list {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border-bottom: 1px solid #FFB400;
+  padding: 12px;
+  color: #474744;
+  text-align: initial;
+}
+
+td {
+  color: white;
+}
+
+.material-icons:hover {
+  color: #2994B2;
+  cursor: pointer;
+}
+
+th {
+  padding: 12px;
+  text-align: left;
+  background-color: #FFB400;
+  color: #474744;
+}
+
+.noData {
+  padding: 10px;
+  align-items: center;
+}
+
+.filterWrap {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;
+}
+
